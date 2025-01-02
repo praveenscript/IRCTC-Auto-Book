@@ -1,3 +1,17 @@
+# My Own Changes
+Since this is a clone of the original repository, I'll describe the changes I've made and the reasons behind them.
+
+- Extended Wait Time Before Tatkal Booking:
+- Original: The wait time before Tatkal ticket booking was set to 5 minutes.
+- Update: I increased the wait time to 10 minutes.
+
+Reason: IRCTC doesn't allow me to log in even 5-6 minutes before booking time. However, I can log in exactly at the booking time using the IRCTC mobile app, suggesting a possible preference for mobile logins.
+
+Note: While the wait time is now 10 minutes, IRCTC tends to log out users who remain inactive for long periods. To avoid this, I manually click on different train/seats periodically to simulate activity and maintain my session.
+
+
+
+
 ![Please Favourite This Project Before Reading (1)](https://github.com/shivamguys/irctc-cypress-automation/assets/25263989/1fe791dc-d320-42dd-99c9-d33fd034525b)
 
 # IRCTC Tatkal Cypress Automation !
