@@ -187,7 +187,7 @@ function BOOK_UNTIL_TATKAL_OPENS(
         // wait for exact time
         // cy.task("log", "Waiting for the exact time of opening of TATKAL...");
         const exactTimeToOpen = tatkalOpenTimeForToday(TRAIN_COACH);
-        cy.get("div.h_head1", { timeout: 300000 }).should(
+        cy.get("div.h_head1", { timeout: 600000 }).should(
             "include.text",
             exactTimeToOpen
         );
